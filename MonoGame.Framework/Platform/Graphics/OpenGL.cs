@@ -387,6 +387,7 @@ namespace MonoGame.OpenGL
     internal enum TextureTarget
     {
         Texture2D = 0x0DE1,
+        Texture2DArray = 0x8C1A,
         Texture3D = 0x806F,
         TextureCubeMap = 0x8513,
         TextureCubeMapPositiveX = 0x8515,
@@ -446,6 +447,7 @@ namespace MonoGame.OpenGL
     internal enum PixelFormat
     {
         Rgba = 0x1908,
+        Rgba8 = 0x8058,
         Rgb = 0x1907,
         Luminance = 0x1909,
         CompressedTextureFormats = 0x86A3,
